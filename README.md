@@ -15,7 +15,7 @@ Update all git repositories in a specified folder.
 Renew Caddy web server certificate by allowing appropriate ports through UFW.
 
 ## License
-ISC License
+ISC License  
 Copyright 2022 Justin Weeks <license@jmweeks.com>
 
 Permission to use, copy, modify, and/or distribute this software for any 
