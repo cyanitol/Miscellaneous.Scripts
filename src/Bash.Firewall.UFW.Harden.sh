@@ -16,7 +16,8 @@
 #  DNS_server_address: DNS Server to use for DNS Record Lookup
 
 # Path is set here if running from cron doesn't include necessary paths
-export PATH=$PATH:/usr/sbin:/usr/bin
+export PATH=$PATH:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
+export DISPLAY=:0.0
 
 # ** CHANGE THESE VARIABLES **
 DNS_record="hostname.domain.com";

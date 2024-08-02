@@ -1,6 +1,9 @@
 #!/bin/bash
 # Copyright 2022 Justin Weeks <license@jmweeks.com>
 
+export PATH=$PATH:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
+export DISPLAY=:0.0
+
 function ResetFireWall(){
     yes | ufw reset
     ufw default deny incoming
