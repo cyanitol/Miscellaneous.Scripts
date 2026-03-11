@@ -2,16 +2,16 @@
 
 ## Scripts
 
-### Bash.Backup.Restic.sh
+### src/sh/Bash.Backup.Restic.sh
 Simple Restic backup script.
 
-### Bash.Firewall.UFW.Harden.sh
+### src/sh/Bash.Firewall.UFW.Harden.sh
 Script to be periodically run by cron to set UFW rules.
 
-### Bash.Git.UpdateRepository.sh
+### src/sh/Bash.Git.UpdateRepository.sh
 Update all git repositories in a specified folder.
 
-### Bash.WebServer.Caddy.RenewCertificate.sh
+### src/sh/Bash.WebServer.Caddy.RenewCertificate.sh
 Renew Caddy web server certificate by allowing appropriate ports through UFW.
 
 ## License
